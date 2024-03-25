@@ -9,7 +9,7 @@ calculatebtn.addEventListener("click", () => {
         const dob = new Date(inputbtn.value);
         const dob_year = dob.getFullYear();
 
-        const now = new Date();
+        const now = new Date(); 
         const now_year = now.getFullYear();
         const age = now_year - dob_year;
 
